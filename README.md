@@ -164,7 +164,7 @@ https://dsc.gg/sorpo-spells
 
 ##
 ## These are people who contributed to the project. Either with ideas or with anything else.
-##Affiliated
+## Affiliated
 
 @callmequit: Bot creation, Bot development
 
