@@ -165,6 +165,7 @@ https://dsc.gg/sorpo-spells
 ##
 ## These are people who contributed to the project. Either with ideas or with anything else.
 Affiliated ------------
+
 @callmequit: Bot creation, Bot development
 
 @teddzy.: Moderation, Being Ted
@@ -175,6 +176,7 @@ Affiliated ------------
 Poi: Creating the string for the Airstrike spell (Not used anymore but still thought I would leave this here)
 
 ## Ideas
+
 @cj_siege: Helping out, The grenade idea, Part of inspiration for making the bot 
 
 @facemenareweird: Blue leather idea
