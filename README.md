@@ -2,7 +2,7 @@
 Make sure you have Node version: **18.17.0**
 You can get that here: https://nodejs.org/dist/v18.17.0/
 
-Once you have node installed, run `npm i att-client`, along with `npm install att-string-transcoder` in command prompt.
+Once you have node installed, run `npm i att-client`, along with `npm install att-string-transcoder` in command prompt in the directory of the folder containing the files.
 
 **To actually start the bot**, run `cmd` in the directory of the folder containing the files and click enter.
 Once you click enter you'll be met with a console, type `node .` and click enter in the console.
