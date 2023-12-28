@@ -617,6 +617,16 @@ try {
                                                             connection.send(cmd);
                                                         } catch {
                                                         }
+                                                    } else if (jsonContainsString(LeftHand, "Book") && isInSpellChamber && jsonContainsString(RightHand, holdingItem)) {
+                                                        try {
+                                                            say(id, spellName, 2); 
+                                                            connection.send(`wacky destroy ${LeftHand.Identifier}`);   
+                                                            connection.send(`spawn ${id} ${spawnItem}`);
+                                                            connection.send(`player modify-stat ${id} ${stat}`);
+                                                            connection.send(`player set-stat ${id} ${stat2}`);
+                                                            connection.send(cmd);
+                                                        } catch {
+                                                        }
                                                     }
                                                 } catch {
                                                 }
