@@ -689,6 +689,8 @@ try {
                         say(ReportedBy.id, "You must have at least 40 coins in your ATM to fast travel.", 10);
                     }
                 });
+
+                //Credit to Bargah for the teleport tablet idea!
             }
             console.log(Reason);
         });
