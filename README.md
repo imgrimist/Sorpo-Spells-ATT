@@ -16,7 +16,7 @@ Once you click enter you'll be met with a console, type `node .` and click enter
 **Crystal Spells:**
 
 `Crystal Burst`
-Crystal Gem Blue, Crystal Gem Blue
+Crystal Gem Blue, Explosive Spike
 
 `Crystal Acid Grenade`
 Crystal Gem Blue, Dynamite
