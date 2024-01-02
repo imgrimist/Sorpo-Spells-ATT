@@ -8,8 +8,19 @@ Once you have node installed, run `npm i att-client`, along with `npm install at
 Once you click enter you'll be met with a console, type `node .` and click enter in the console.
 
 (NOTE: You **NEED** a bot made by Alta to do this. Email `support@altavr.io` to get one. Make sure you state your Alta username + what you want your bot to be called)
-# HOW TO USE SPELLS
 
+# HOW TO INVITE TO SERVER (Once you have a bot token from Alta)
+1. Invite your bot to the server as you would for a player.
+
+2. Turn on your bot. (See the `HOW TO RUN` section for how to do that)
+
+3. Turn off your bot by clicking `Ctrl + C` in your bot's terminal.
+
+4. When you turn your bot back on, it should be in the server. Once it is, give it moderator.
+
+5. You're all setup! 
+
+# HOW TO USE SPELLS
 **--Important Info--**
 *You must be holding both items required for the spell above your head!!!!*
 
