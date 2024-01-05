@@ -704,6 +704,30 @@ try {
             }
             console.log(Reason);
         });
+
+        connection.subscribe("CommandExecuted", message => {
+            const { Command } = message.data;
+
+            if (Command.startsWith("ban ")) {
+                const username = Command.split(" ")[1];
+
+                connection.send(`bans from-server "${username}" 999999 "You have been banned."`)
+            }
+
+            if (Command.startsWith("smite ")) {
+                const username = Command.split(" ")[1];
+
+                connection.send(`player message "${username}" "Smited" 3`);
+                connection.send(`player downed-duration 0`);
+                connection.send(`settings changesetting server dropAllOnDeath true`);
+                connection.send(`player kill "${username}"`);
+                connection.send(`player downed-duration 60`);
+                connection.send(`settings changesetting server dropAllOnDeath false`);
+            }
+
+        }).catch(error => {
+            console.log(error);
+        });
     });
 
 
