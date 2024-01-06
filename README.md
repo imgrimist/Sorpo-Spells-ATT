@@ -4,10 +4,11 @@ You can get that here: https://nodejs.org/dist/v18.17.0/
 
 Once you have node installed, run `npm i att-client`, along with `npm install att-string-transcoder` in command prompt in the directory of the folder containing the files.
 
+You **NEED** a bot made by Alta to do this. Email `support@altavr.io` to get one. Make sure you state your Alta username + what you want your bot to be called.
+**When you have your bot**, put your bot's credentials in the `UserLogin.js` file. If you need help with this, join our discord for support (Scroll down for that).
+
 **To actually start the bot**, run `cmd` in the directory of the folder containing the files and click enter.
 Once you click enter you'll be met with a console, type `node .` and click enter in the console.
-
-(NOTE: You **NEED** a bot made by Alta to do this. Email `support@altavr.io` to get one. Make sure you state your Alta username + what you want your bot to be called)
 
 # HOW TO INVITE TO SERVER (Once you have a bot token from Alta)
 1. Invite your bot to the server as you would for a player.
